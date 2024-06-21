@@ -23,7 +23,7 @@ if not os.path.exists(root_dir):
     os.makedirs(root_dir)
 
 model_nths = range(6,15)
-batch_size = 64 
+batch_size = 8
 log_file = 'log.txt'
 log_file = os.path.join(root_dir, log_file)
 
